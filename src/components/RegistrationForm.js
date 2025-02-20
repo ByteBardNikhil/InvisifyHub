@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import styles from "../styles/RegistrationForm.module.css";
 import InputField from "./InputField";
 import Button from "./Button";
+import { Link } from "react-router-dom";
+
 const RegistrationForm = ({ onSubmit }) => {
   const [formData, setFormData] = useState({
     username: "",
@@ -59,12 +61,12 @@ const RegistrationForm = ({ onSubmit }) => {
       />
       <Button text="Register" onClick={handleSubmit} variant="primary" />
       <div className={styles.options}>
-        <Button text="Login" onClick={onLogin} variant="secondary" />
-        <Button
-          text="Try Without Registration"
-          onClick={onGuest}
-          variant="secondary"
-        />
+        <Link to="/login" className={styles.link} onClick={onLogin}>
+          Login
+        </Link>
+        <Link to="/guest" className={styles.link} onClick={onGuest}>
+          Try Without Registration
+        </Link>
       </div>
     </form>
   );
