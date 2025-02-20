@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/InvisifyHub/static/css/main.c835f833.css",
+    "main.js": "/InvisifyHub/static/js/main.efa883c8.js",
+    "index.html": "/InvisifyHub/index.html",
+    "main.c835f833.css.map": "/InvisifyHub/static/css/main.c835f833.css.map",
+    "main.efa883c8.js.map": "/InvisifyHub/static/js/main.efa883c8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c835f833.css",
+    "static/js/main.efa883c8.js"
+  ]
+}
