@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/InvisifyHub/static/css/main.c835f833.css",
-    "main.js": "/InvisifyHub/static/js/main.efa883c8.js",
+    "main.css": "/InvisifyHub/static/css/main.2d4ff812.css",
+    "main.js": "/InvisifyHub/static/js/main.888db3b1.js",
     "index.html": "/InvisifyHub/index.html",
-    "main.c835f833.css.map": "/InvisifyHub/static/css/main.c835f833.css.map",
-    "main.efa883c8.js.map": "/InvisifyHub/static/js/main.efa883c8.js.map"
+    "main.2d4ff812.css.map": "/InvisifyHub/static/css/main.2d4ff812.css.map",
+    "main.888db3b1.js.map": "/InvisifyHub/static/js/main.888db3b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.c835f833.css",
-    "static/js/main.efa883c8.js"
+    "static/css/main.2d4ff812.css",
+    "static/js/main.888db3b1.js"
   ]
 }
